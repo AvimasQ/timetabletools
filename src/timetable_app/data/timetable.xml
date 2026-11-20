@@ -1,0 +1,41 @@
+<Timetable>
+  <Meta>
+    <semester>осенний</semester>
+  </Meta>
+  <Hosts>
+    <Host id="0">
+      <name>Иванов Иван Иванович</name>
+      <post>доцент</post>
+    </Host>
+    <Host id="1">
+      <name>Петрова Анна Сергеевна</name>
+      <post>профессор</post>
+    </Host>
+  </Hosts>
+  <Events>
+    <Event>
+      <name>Математический анализ</name>
+      <event_start>2026-11-09T10:00:00</event_start>
+      <event_end>2026-11-09T11:30:00</event_end>
+      <host_id type="int">0</host_id>
+      <room>ауд. 101</room>
+      <group>БИ-21</group>
+    </Event>
+    <Event>
+      <name>Программирование</name>
+      <event_start>2026-11-09T11:40:00</event_start>
+      <event_end>2026-11-09T13:10:00</event_end>
+      <host_id type="int">1</host_id>
+      <room>ауд. 202</room>
+      <group>БИ-22</group>
+    </Event>
+    <Event>
+      <name>Физика</name>
+      <event_start>2026-11-10T09:00:00</event_start>
+      <event_end>2026-11-10T10:30:00</event_end>
+      <host_id type="int">0</host_id>
+      <room>ауд. 101</room>
+      <group>БИ-22</group>
+    </Event>
+  </Events>
+</Timetable>
