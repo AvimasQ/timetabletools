@@ -79,28 +79,24 @@ src/
 └── timetable_app/             # демонстрация (пример использования)
     ├── __init__.py
     ├── storage.py             # StorageError + save_json/load_json/
-    │                          #   save_xml/load_xml
+    │                          # save_xml/load_xml
     ├── main.py                # консольное меню
     └── data/
         ├── timetable.json     # пример расписания занятий
         └── timetable.xml      # пример расписания занятий
 docs/
-├── class-diagram-module.drawio      # диаграмма классов модуля (исходник)
-├── class-diagram-module.drawio.png  # она же, экспорт PNG (ELK layout)
-├── class-diagram-app.drawio         # диаграмма демо-части (исходник)
-├── class-diagram-app.drawio.png     # она же, экспорт PNG (ELK layout)
+├── class-diagram-module.drawio.png  # диаграмма классов модуля
+├── class-diagram-app.drawio.png     # диаграмма демо-части
 └── timetabletools.md                # документация по модулю
 README.md
 ```
 
 ## Диаграммы классов
 
-[![Диаграмма классов модуля](docs/class-diagram-module.drawio.png)](docs/class-diagram-module.drawio)
+![Диаграмма классов модуля](docs/class-diagram-module.drawio.png)]
 
-[![Диаграмма демонстрационной части](docs/class-diagram-app.drawio.png)](docs/class-diagram-app.drawio)
+![Диаграмма демонстрационной части](docs/class-diagram-app.drawio.png)
 
-Изображения кликабельны и ведут к исходникам `.drawio`; диаграммы
-разложены `Layout: ELK`.
 
 ## Демонстрационное приложение
 
@@ -174,5 +170,3 @@ XML:
 ## Документация
 
 - Подробное описание модуля: [`docs/timetabletools.md`](docs/timetabletools.md).
-- Исходники диаграмм открываются в [draw.io](https://app.diagrams.net/)
-  или расширении IDE; PNG содержит встроенный XML и тоже редактируется.
